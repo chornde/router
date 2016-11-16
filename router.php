@@ -1,14 +1,14 @@
 <?php
 
 	/**
-		minimal example of URL to class::method routing without magic (no regex, no closures)
-		just run the build in webserver with `php -S localhost:999 router.php` and open your browser at `localhost:999`
-		@see http://php.net/manual/en/features.commandline.webserver.php
-		use 'mod_rewrite' for apache webserver, e.g.
-			RewriteEngine on
-			RewriteCond %{REQUEST_FILENAME} !-d
-			RewriteCond %{REQUEST_FILENAME} !-f
-			RewriteRule . /index.php [L]
+	* minimal example of URL to class::method routing without magic (no regex, no closures)
+	* just run the build in webserver with `php -S localhost:999 router.php` and open your browser at `localhost:999`
+	* @see http://php.net/manual/en/features.commandline.webserver.php
+	* use 'mod_rewrite' for apache webserver, e.g.
+	*    RewriteEngine on
+	*    RewriteCond %{REQUEST_FILENAME} !-d
+	*    RewriteCond %{REQUEST_FILENAME} !-f
+	*    RewriteRule . /index.php [L]
 	*/
 
 
